@@ -1,0 +1,31 @@
+{
+  "name": "gps-tracking-ext",
+  "version": "1.1.2",
+  "description": "Let you work with some GPS trackers that connects through tcp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agussaputrasijabat/gps-tracking-ext-nodejs.git"
+  },
+  "keywords": [
+    "gps",
+    "tracker",
+    "Tk103",
+    "car",
+    "gps"
+  ],
+  "author": "Agus Saputra Sijabat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agussaputrasijabat/gps-tracking-ext-nodejs/issues"
+  },
+  "homepage": "https://github.com/agussaputrasijabat/gps-tracking-ext-nodejs",
+  "dependencies": {
+    "crc": "^3.8.0",
+    "crc16-ccitt-node": "^1.0.4",
+    "node.extend": "*"
+  }
+}
